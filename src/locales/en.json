@@ -1,0 +1,62 @@
+{
+    "nav": {
+      "about": "About",
+      "pricing": "Pricing",
+      "gallery": "Gallery",
+      "contact": "Contact"
+    },
+
+    
+        "home": {
+          "headline": "Escape. Celebrate. Play.",
+          "description": "Padel Breeze is where premium experiences meet unforgettable gatherings — luxurious villas, private courts, and unmatched vibes.",
+          "feature1": "Exclusive Padel Courts for private games and events",
+          "feature2": "Elegant lounges: Silver, Gold, and Farm setups",
+          "feature3": "Amenities include TV, billiards, tennis, pool & more",
+          "feature4": "Perfect for families, friends, and special occasions",
+          "viewPrices": "See Pricing Options",
+          "cta": "Book Your Reservation"
+        },
+
+        "pricing": {
+    "title": "Choose Your Perfect Space",
+    "subtitle": "Tailored luxury for every occasion — weekday, weekend, or Eid.",
+    "weekdays": "Sunday to Wednesday",
+    "thursSat": "Thursday & Saturday",
+    "friday": "Friday",
+    "eid": "Eid Days",
+
+    "silver": {
+      "title": "Padel Breeze Silver",
+      "description": "Modern majlis with glass facade — ideal for 15 to 20 guests."
+    },
+    "gold": {
+      "title": "Padel Breeze Gold",
+      "description": "Luxurious tent setup for over 35 guests — complete with all amenities."
+    },
+    "farm": {
+      "title": "Padel Breeze Farm",
+      "description": "Two-section setup for men and women — ideal for large events and family gatherings."
+    }
+  },
+  "gallery": {
+  "title": "Our Gallery",
+  "subtitle": "A glimpse of the Padel Breeze experience"
+},
+"about": {
+  "title": "About Padel Breeze",
+  "description": "Padel Breeze is an exclusive destination that brings together the elegance of luxury villas with the energy of padel courts. Whether you're seeking relaxation or a competitive match, Padel Breeze offers an experience like no other.\n\nOur villas are equipped with modern amenities, private pools, and breathtaking surroundings—perfect for friends, families, and private events.\n\nWith top-quality padel courts, beautiful scenery, and seamless service, we promise an unforgettable stay. We aim to be more than just a venue—we’re a retreat for wellness, fun, and connection."
+},
+"footer": {
+  "contactTitle": "Contact Information",
+  "locationTitle": "Location",
+  "rights": "All rights reserved."
+}
+
+
+
+
+      
+      
+  }
+  
