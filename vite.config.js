@@ -7,29 +7,27 @@ export default defineConfig({
   plugins: [
     react(),
 
-    // Copies index.html → 404.html during build
+    // ✅ Copy prebuilt index.html from public → dist/404.html
     viteStaticCopy({
       targets: [
         {
-          src: path.resolve(__dirname, 'dist/index.html'),
-          dest: '', // copy to dist/
+          src: path.resolve(__dirname, 'public/index.html'),
+          dest: '.', // goes into dist/
           rename: '404.html'
         }
       ]
     })
   ],
 
-  // Set the base path to match GitHub Pages URL
+  // ✅ GitHub Pages base path
   base: '/padel-breeze/',
 
-  // Optional: resolve aliases
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     }
   },
 
-  // Optional: ensure build output directory is clean
   build: {
     outDir: 'dist',
     emptyOutDir: true,
