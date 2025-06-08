@@ -1,6 +1,10 @@
 import { useTranslation } from "react-i18next";
 import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
+import logo from './logo1.jpeg';
+
+
+
 
 export default function Navbar() {
   const { t, i18n } = useTranslation();
@@ -45,7 +49,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center">
   <img
-    src="/pages/images/logo1.jpeg"
+    src={logo}
     alt="Padel Breeze Logo"
     className="h-16 md:h-20 w-auto object-contain"
   />
