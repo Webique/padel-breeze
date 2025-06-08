@@ -45,7 +45,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
-            src="/src/assets/logo.jpeg"
+            src="/src/assets/logo1.jpeg"
             alt="Padel Breeze Logo"
             className="h-16 md:h-20 w-auto object-contain"
           />
