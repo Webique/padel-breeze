@@ -1,8 +1,11 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
 
   const galleryImages = [1, 2, 3, 5].map((n) => `/images/gallery/${n}.jpg`);
 
@@ -72,12 +75,13 @@ export default function Home() {
           className="flex flex-col sm:flex-row sm:justify-start items-center gap-4 pt-4"
         >
           {/* ✅ View Prices button (unchanged) */}
-          <a
-            href="/pricing"
-            className="bg-black text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800 transition"
-          >
-            {t("home.viewPrices")}
-          </a>
+          <button
+  onClick={() => navigate("/pricing")}
+  className="bg-black text-white px-6 py-3 rounded-md font-medium hover:bg-gray-800 transition"
+>
+  {t("home.viewPrices")}
+</button>
+
 
           {/* ✅ WhatsApp Reservation button (updated) */}
           <a
