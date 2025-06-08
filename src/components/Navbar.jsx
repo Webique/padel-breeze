@@ -44,12 +44,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center">
-          <img
-            src="/src/assets/logo1.jpeg"
-            alt="Padel Breeze Logo"
-            className="h-16 md:h-20 w-auto object-contain"
-          />
-        </Link>
+  <img
+    src="/pages/images/logo1.jpeg"
+    alt="Padel Breeze Logo"
+    className="h-16 md:h-20 w-auto object-contain"
+  />
+</Link>
 
         {/* Desktop & Mobile Top Row */}
         <div className="flex items-center space-x-4 rtl:space-x-reverse">
